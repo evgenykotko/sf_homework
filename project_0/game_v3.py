@@ -25,12 +25,7 @@ def random_predict(number: int = 1) -> int:
                     predict += 3
                     if number > predict:
                         predict += 1
-        # elif number < predict:
-        #     predict -= 10
-        #     if number > predict:
-        #         predict += 5
-        #         if number < predict:
-        #             predict -= 1
+   
     return count
 
 
