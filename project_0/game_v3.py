@@ -12,8 +12,6 @@ def random_predict(number: int = 1) -> int:
     """
     count = 0
     predict = np.random.randint(1, 101)
-    print(f"number - {number}")
-    print(f"predict - {predict}")
 
     while number != predict:
         count += 1
@@ -33,7 +31,6 @@ def random_predict(number: int = 1) -> int:
         #         predict += 5
         #         if number < predict:
         #             predict -= 1
-        print(predict, count)
     return count
 
 
